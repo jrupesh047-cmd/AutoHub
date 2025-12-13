@@ -4,7 +4,7 @@ const Alert = () => {
   const date = new Date().toISOString().split("T")[0];
 
   return (
-    <>
+    <div className="flex flex-col gap-6">
       <div className="text-2xl font-semibold p-4">Alert</div>
 
       <div className="flex justify-start items-center gap-4 bg-white shadow-lg rounded-lg p-2">
@@ -56,7 +56,7 @@ const Alert = () => {
 
         <Pagination />
       </div>
-    </>
+    </div>
   );
 };
 

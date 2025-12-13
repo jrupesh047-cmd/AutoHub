@@ -2,10 +2,10 @@ import Pagination from "../components/ui/Pagination";
 
 const Trips = () => {
   return (
-    <>
+    <div className="flex flex-col gap-6">
       <div className="text-2xl font-semibold p-4">Trips</div>
 
-      <div className="flex justify-start gap-4 items-center p-2 rounded-lg w-full bg-white">
+      <div className="flex justify-start gap-4 items-center p-4 rounded-lg w-full bg-white">
         <label>From</label>
         <input type="date" />
 
@@ -49,7 +49,7 @@ const Trips = () => {
 
         <Pagination />
       </div>
-    </>
+    </div>
   );
 };
 
